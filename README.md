@@ -10,3 +10,4 @@ python example.py
 ```
 python index_search.py
 ```
+Elastic Search configuration needs plugin : https://github.com/scirag/elastic-search-hamming-distance-plugin
