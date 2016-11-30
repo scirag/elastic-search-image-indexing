@@ -5,3 +5,8 @@ Elastic Search Image Indexing
 ```
 python example.py
 ```
+
+**search index:**
+```
+python index_search.py
+```
