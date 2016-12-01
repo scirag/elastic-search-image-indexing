@@ -10,7 +10,8 @@ python example.py
 ```
 python index_search.py
 ```
-Elastic Search configuration needs plugin : https://github.com/scirag/elastic-search-hamming-distance-plugin
+Elastic Search configuration needs plugin : 
+* https://github.com/scirag/elastic-search-hamming-distance-plugin
 
 Perceptual Hashing used for image indexing : 
 * https://pypi.python.org/pypi/ImageHash
