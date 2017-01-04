@@ -1,7 +1,5 @@
 import cv2
 import numpy as np
-import binascii
-from bitstring import BitArray
 
 
 def read_image(image_path):
@@ -37,8 +35,6 @@ def histogram_hash(hist_matrix, pixel_count):
 
 
 def hamming_distance(hash1, hash2):
-    bin1 = BitArray('0x' + hash1)
-    bin2 = BitArray('0x' + hash2)
-    print(bin1.bin)
-    print(bin2.bin)
-    return sum(c1 != c2 for c1, c2 in zip(bin1.bin, bin2.bin))
+    bin1 = '{0:b}'.format(int(hash1, 16))
+    bin2 = '{0:b}'.format(int(hash2, 16))
+    return sum(c1 != c2 for c1, c2 in zip(bin1, bin2))
