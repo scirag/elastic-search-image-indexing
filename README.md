@@ -25,5 +25,5 @@ New Histogram Hashing Method for image indexing:
 
 ![alt tag](https://github.com/scirag/elastic-search-image-indexing/blob/master/data/lake_hist_comparison.png?raw=true)
 
-* lake.jpg hash          : 122211111110111001112111111111000111111111111000
-* lakeCorrupted.jpg hash : 122221111100110001111111111211000112111111111000
+* data/lake.jpg hash          : 122211111110111001112111111111000111111111111000
+* data/lakeCorrupted.jpg hash : 122221111100110001111111111211000112111111111000
